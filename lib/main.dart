@@ -7,8 +7,15 @@ import './widgets/transaction_list.dart';
 import './widgets/chart.dart';
 import './models/transaction.dart';
 
-void main() => runApp(MyApp());
+void main() => {runApp(MyApp())};
 
+// void main() {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+//       .then((_) {
+//     runApp(new MyApp());
+//   });
+// }
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
